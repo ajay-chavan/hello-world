@@ -1,0 +1,31 @@
+{
+  "name": "sample-project",
+  "version": "1.0.0",
+  "description": "A sample project to demonstrate dependabot version update",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/sample-project.git"
+  },
+  "keywords": [
+    "sample",
+    "dependabot",
+    "example"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/username/sample-project/issues"
+  },
+  "homepage": "https://github.com/username/sample-project#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
